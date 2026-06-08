@@ -47,11 +47,10 @@ Güvenlik ve Kimlik Doğrulama Notu
 
 Sistemi yerel ortamda test etmek isteyen jüri ve geliştiricilerin, Google Cloud Console üzerinden kendi OAuth 2.0 İstemci Kimliklerini oluşturarak proje ana dizinine eklemeleri gerekmektedir. Örnek şablon yapısı credentials.json.example dosyasında sunulmuştur.
 
- #Geliştirici Bilgileri
-Proje Geliştiricisi: Aleyna Nur Erdoğan
+---
 
-Bölüm: Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
-
-Ders: BÖZ214 Fiziksel Programlama
-
-Öğretim Elemanı: Mehmet TEKEREK
+## 🎓 Geliştirici Bilgileri
+* **Proje Geliştiricisi:** Aleyna Nur Erdoğan
+* **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
+* **Ders:** BÖZ214 Fiziksel Programlama
+* **Öğretim Elemanı:** Prof. Dr. Mehmet TEKEREK
