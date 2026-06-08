@@ -55,7 +55,11 @@ Proje kapsamında kullanılan donanım bileşenleri ve ESP32 mikrodenetleyici ü
 * **Ses sentezi (TTS):** Python gTTS (Google Text-to-Speech) kütüphanesi ile tamamen Türkçe sesli asistan geri bildirimi.
 
 ---
-
+## 🎓 Geliştirici Bilgileri
+* **Proje Geliştiricisi:** Aleyna Nur Erdoğan
+* **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
+* **Ders:** BÖZ214 Fiziksel Programlama
+* **Öğretim Elemanı:** Prof. Dr. Mehmet TEKEREK
 ## 💻 Yazılım Kurulumu & Bağımlılıklar
 
 ### 1. ESP32 (Firmware)
@@ -76,11 +80,7 @@ Sistemi yerel ortamda test etmek isteyen jüri ve geliştiricilerin, Google Clou
 
 ---
 
-## 🎓 Geliştirici Bilgileri
-* **Proje Geliştiricisi:** Aleyna Nur Erdoğan
-* **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
-* **Ders:** BÖZ214 Fiziksel Programlama
-* **Öğretim Elemanı:** Prof. Dr. Mehmet TEKEREK
+
 
 ## 🎓 Geliştirici Bilgileri
 
