@@ -1,8 +1,5 @@
 # MAYA-Akilli-Asistan
 BÖZ214 Fiziksel Programlama dersi kapsamında geliştirilen MAYA, ESP32 ve Python tabanlı hibrit bir akıllı görev ve asistan sistemidir. Sistem; RFID tabanlı yetkilendirme, Google Sheets entegrasyonu, gerçek zamanlı görev yönetimi, sesli geri bildirim, RTC destekli zaman takibi ve acil durum bildirim özellikleri sunmaktadır.
-# MAYA: Hibrit Akıllı Görev ve Asistan Sistemi
-
-BÖZ214 Fiziksel Programlama dersi kapsamında geliştirilen MAYA, ESP32 ve Python tabanlı hibrit bir akıllı görev ve asistan sistemidir. Sistem; RFID tabanlı yetkilendirme, Google Sheets entegrasyonu, gerçek zamanlı görev yönetimi, sesli geri bildirim (TTS), zaman yönetimi ve acil durum bildirim özellikleri sunmaktadır.
 
 ---
 
@@ -50,7 +47,7 @@ Güvenlik ve Kimlik Doğrulama Notu
 
 Sistemi yerel ortamda test etmek isteyen jüri ve geliştiricilerin, Google Cloud Console üzerinden kendi OAuth 2.0 İstemci Kimliklerini oluşturarak proje ana dizinine eklemeleri gerekmektedir. Örnek şablon yapısı credentials.json.example dosyasında sunulmuştur.
 
- Geliştirici Bilgileri
+ #Geliştirici Bilgileri
 Proje Geliştiricisi: Aleyna Nur Erdoğan
 
 Bölüm: Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
