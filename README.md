@@ -26,36 +26,6 @@ Proje kapsamında kullanılan donanım bileşenleri ve ESP32 mikrodenetleyici ü
 * **Ses sentezi (TTS):** Python gTTS (Google Text-to-Speech) kütüphanesi ile tamamen Türkçe sesli asistan geri bildirimi.
 
 ---
-
-## 💻 Yazılım Kurulumu & Bağımlılıklar
-
-### 1. ESP32 (Firmware)
-`maya_esp32.ino` dosyasını Arduino IDE ile açarak aşağıdaki kütüphaneleri yükleyiniz:
-* `SPI.h` & `WiFi.h`
-* `UniversalTelegramBot`
-* `MFRC522`
-* `Adafruit_GFX` & `Adafruit_PCD8544`
-
-### 2. Python (Arka Plan Servisi)
-Gerekli Python kütüphanelerini yüklemek için terminalde aşağıdaki komutu çalıştırın:
-```bash
-pip install pyserial numpy pygame requests gTTS google-auth google-auth-oauthlib google-api-python-client
-
-
-Güvenlik ve Kimlik Doğrulama Notu
- ÖNEMLİ SİBER GÜVENLİK NOTU: Google API kimlik doğrulama sertifikaları (credentials.json ve token.json) veri güvenliği standartları gereği ve hassas anahtarlar içermesi sebebiyle bu açık kaynaklı depoya dahil edilmemiştir.
-
-Sistemi yerel ortamda test etmek isteyen jüri ve geliştiricilerin, Google Cloud Console üzerinden kendi OAuth 2.0 İstemci Kimliklerini oluşturarak proje ana dizinine eklemeleri gerekmektedir. Örnek şablon yapısı credentials.json.example dosyasında sunulmuştur.
-
----
-## 🎓 Geliştirici Bilgileri
-
-* **Proje Geliştiricisi:** Aleyna Nur Erdoğan
-* **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
-* **Ders:** BÖZ214 Fiziksel Programlama
-* **Öğretim Elemanı:** Prof. Dr. Mehmet TEKEREK
-
----
 # MAYA-Akilli-Asistan
 BÖZ214 Fiziksel Programlama dersi kapsamında geliştirilen MAYA, ESP32 ve Python tabanlı hibrit bir akıllı görev ve asistan sistemidir. Sistem; RFID tabanlı yetkilendirme, Google Sheets entegrasyonu, gerçek zamanlı görev yönetimi, sesli geri bildirim, RTC destekli zaman takibi ve acil durum bildirim özellikleri sunmaktadır.
 
@@ -111,3 +81,35 @@ Sistemi yerel ortamda test etmek isteyen jüri ve geliştiricilerin, Google Clou
 * **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
 * **Ders:** BÖZ214 Fiziksel Programlama
 * **Öğretim Elemanı:** Prof. Dr. Mehmet TEKEREK
+
+## 🎓 Geliştirici Bilgileri
+
+* **Proje Geliştiricisi:** Aleyna Nur Erdoğan
+* **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü (BÖTE)
+* **Ders:** BÖZ214 Fiziksel Programlama
+* **Öğretim Elemanı:** Prof. Dr. Mehmet TEKEREK
+
+
+## 💻 Yazılım Kurulumu & Bağımlılıklar
+
+### 1. ESP32 (Firmware)
+`maya_esp32.ino` dosyasını Arduino IDE ile açarak aşağıdaki kütüphaneleri yükleyiniz:
+* `SPI.h` & `WiFi.h`
+* `UniversalTelegramBot`
+* `MFRC522`
+* `Adafruit_GFX` & `Adafruit_PCD8544`
+
+### 2. Python (Arka Plan Servisi)
+Gerekli Python kütüphanelerini yüklemek için terminalde aşağıdaki komutu çalıştırın:
+```bash
+pip install pyserial numpy pygame requests gTTS google-auth google-auth-oauthlib google-api-python-client
+
+
+Güvenlik ve Kimlik Doğrulama Notu
+ ÖNEMLİ SİBER GÜVENLİK NOTU: Google API kimlik doğrulama sertifikaları (credentials.json ve token.json) veri güvenliği standartları gereği ve hassas anahtarlar içermesi sebebiyle bu açık kaynaklı depoya dahil edilmemiştir.
+
+Sistemi yerel ortamda test etmek isteyen jüri ve geliştiricilerin, Google Cloud Console üzerinden kendi OAuth 2.0 İstemci Kimliklerini oluşturarak proje ana dizinine eklemeleri gerekmektedir. Örnek şablon yapısı credentials.json.example dosyasında sunulmuştur.
+
+---
+
+
